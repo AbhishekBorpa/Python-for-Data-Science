@@ -3,3 +3,5 @@
 # 2. External mmodules
 # ex: pip, sys, os
 print("New env")
+import numpy  as np
+import hashlib
