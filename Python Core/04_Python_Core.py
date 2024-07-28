@@ -1,18 +1,18 @@
-# dictionary -> {key:value} pair
-dic = {
-  "namme":"abhishek",
-  "age":19,
-  "subject":"computer science"
-}
-print(dic.keys())
-print(dic.values())
-print(dic["age"])
-print(dic.get("age"))
+# # dictionary -> {key:value} pair
+# dic = {
+#   "namme":"abhishek",
+#   "age":19,
+#   "subject":"computer science"
+# }
+# print(dic.keys())
+# print(dic.values())
+# print(dic["age"])
+# print(dic.get("age"))
 
-for valuess in dic.values():
-  print(valuess)
+# for valuess in dic.values():
+#   print(valuess)
 
-print(dic.items())
+# print(dic.items())
 
 
 # methods  ordered way
@@ -33,4 +33,10 @@ ep2 = {
   12:14
 }
 print(ep)
-ep.
+ep.update(ep2)
+print(ep)
+# ep.clear()
+print(ep)
+ep.pop(12)
+ep.popitem()
+print(ep)
