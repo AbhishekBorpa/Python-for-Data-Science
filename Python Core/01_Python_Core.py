@@ -49,3 +49,17 @@ print(num_2)
 # # print(abhishek.index())
 # print(abhishek.pop())
 # print(abhishek)
+
+
+
+# f Strings -> used for string formmating
+name = "abhishek"
+country = "india"
+letter = f"hey my name is {name} and i am from {country}"
+print(letter)
+# etter = "hey my name is {0} and i am from {1}"
+# print(etter,format(name,country))
+
+price = 1999.3456
+txt = f"value of iPhone is {price:.2f}"
+print(txt)
