@@ -20,31 +20,31 @@ abhishek = ["abhishek singh","deep singh","Naveen Singh","Naveen Singh",10,20,30
 
 # list methods 
 
-num = [1,2,3,4,5,6,7,8,9,9,9,10]
-print(num)
-num.append(11) # add value in end
-num.sort(reverse=True) # reverce the  order
-num.reverse() # reverce the  List
-print(num.index(5))
+# num = [1,2,3,4,5,6,7,8,9,9,9,10]
+# print(num)
+# num.append(11) # add value in end
+# num.sort(reverse=True) # reverce the  order
+# num.reverse() # reverce the  List
+# print(num.index(5))
 
 
-print(num)
-print(num.count(9))
-nums = num # make change in both 
-nums.append(111)
-print(nums)
-print(num)
+# print(num)
+# print(num.count(9))
+# nums = num # make change in both 
+# nums.append(111)
+# print(nums)
+# print(num)
 
-num_2=num.copy() # no change in original
-num_2.append(123)
-print(num)
+# num_2=num.copy() # no change in original
+# num_2.append(123)
+# print(num)
 
 
-num_2.insert(2,11)
-print(num_2)
+# num_2.insert(2,11)
+# print(num_2)
 
-num_2.extend(abhishek)
-print(num_2)
+# num_2.extend(abhishek)
+# print(num_2)
 # print(abhishek.reverse())
 # # print(abhishek.index())
 # print(abhishek.pop())
@@ -53,13 +53,25 @@ print(num_2)
 
 
 # f Strings -> used for string formmating
-name = "abhishek"
-country = "india"
-letter = f"hey my name is {name} and i am from {country}"
-print(letter)
-# etter = "hey my name is {0} and i am from {1}"
-# print(etter,format(name,country))
+# name = "abhishek"
+# country = "india"
+# letter = f"hey my name is {name} and i am from {country}"
+# print(letter)
+# # etter = "hey my name is {0} and i am from {1}"
+# # print(etter,format(name,country))
 
-price = 1999.3456
-txt = f"value of iPhone is {price:.2f}"
-print(txt)
+# price = 1999.3456
+# txt = f"value of iPhone is {price:.2f}"
+# print(txt)
+
+ 
+# docstrings -> strings after class, function
+def square(n):
+  ''' it will gives square of given number''' # just after of the function
+  return n*n
+ 
+print(square(7))
+print(square.__doc__)
+
+# pep 8 -> maintainable code guideline
+# import this module command

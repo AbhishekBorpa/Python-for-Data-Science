@@ -49,16 +49,16 @@ b = 20
 
 # print(average(100))
 
-def avg(*nummber): # take argument as tuple
-  sum = 0
-  for i in nummber:
-    sum = i+sum
-    average = print("avg is :",sum/(len(nummber)))
-    return average
+# def avg(*nummber): # take argument as tuple
+#   sum = 0
+#   for i in nummber:
+#     sum = i+sum
+#     average = print("avg is :",sum/(len(nummber)))
+#     return average
   
 
 
-print(avg(10,20,30,40))
+# print(avg(10,20,30,40))
 
 # def name(**naam):
 #   print("hello",naam["fname"],naam["mname"],naam["lname"])
@@ -67,6 +67,21 @@ print(avg(10,20,30,40))
 # print(name(fname="abhishek", mname="singh",lname= "kuntal"))
 
 
+
+# Recursion in python -> call func in other func
+
+def factorial(n):
+  if (n==1 or n==0):
+
+    return 1
+  else:
+    return n*factorial(n-1) # use same func in same func
+
+print(factorial(50))
+
+# fibbonacci sequence
+
+#write own your own
 
 
 
