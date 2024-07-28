@@ -3,6 +3,13 @@ name = "abhishek singh" # string
 for i in range(1,11,2): # range()
   print(i)
 
+for i in range(6):
+  print("hey")
+
+
+else:
+  print("NOOOOOOO")
+
 # for names in name:
 #   print(names)
 
@@ -14,4 +21,7 @@ i=1
 while (i<10):
   print(i)
   i = i+1
+
+
+
 
