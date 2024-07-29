@@ -1,0 +1,9 @@
+Press ‘Print Screen/PrtScrn’ or press ‘Alt’ and ‘Print Screen/PrtScrn’ (different for each PC). 
+Click ‘Start’. 
+Open ‘Paint’. Do a search for ‘Paint’ if you can’t find it. 
+Click ‘File’. 
+Click ‘New’ to open a new page. 
+Click on ‘Paste’ in the new page. 
+Click on ‘File’. 
+Click on ‘Save As’. 
+Name the new file, choose where you want it to save on your computer, and click ‘Save’.

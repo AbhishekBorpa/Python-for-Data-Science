@@ -70,19 +70,33 @@ b = 20
 
 # Recursion in python -> call func in other func
 
-def factorial(n):
-  if (n==1 or n==0):
+# def factorial(n):
+#   if (n==1 or n==0):
 
-    return 1
-  else:
-    return n*factorial(n-1) # use same func in same func
+#     return 1
+#   else:
+#     return n*factorial(n-1) # use same func in same func
 
-print(factorial(50))
+# print(factorial(50))
 
 # fibbonacci sequence
 
 #write own your own
 
+# enumerate function
 
+fruits = ['apple','banana','mango']
+# index = 0
+# for fruit in fruits:
+#   print(fruit)
+#   if (index == 2):
+#     print("abhishek singh")
+#   index += 1
+
+
+for index,fruit in enumerate(fruits):
+  print(fruit)
+  if index == 2:
+    print("Harry, Awesome")
 
 
