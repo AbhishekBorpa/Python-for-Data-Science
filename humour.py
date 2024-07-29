@@ -19,3 +19,16 @@ Used for
 
 print(5)
 print("hey how are you doing")
+
+
+# is and == operator
+a = "4"
+c = "4" #exact value
+b = 4 # constant or immutable 4
+# is for exact location in memory
+# == for value
+
+print(a is b)
+print(a==c)
+print(c==b)
+
