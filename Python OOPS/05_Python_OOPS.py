@@ -21,6 +21,8 @@ print(a._age) # protected
 # print(_employee__cls)
 
 
+# super keyword
+
 
 
 
